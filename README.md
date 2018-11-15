@@ -1,5 +1,5 @@
-# React-Boilerplate
-This is react boilerplate
+# gw-react-Boilerplate
+Just another boring boilerplate
 
 ## Setup
 npm install
