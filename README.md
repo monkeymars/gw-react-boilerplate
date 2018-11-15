@@ -2,6 +2,6 @@
 Just another boring boilerplate
 
 ## Setup
-- npm install
-- npm run build
-- npm start
+- yarn
+- yarn build
+- yarn start
