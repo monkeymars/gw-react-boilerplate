@@ -26,7 +26,8 @@ const client = {
         new HtmlWebPackPlugin({
             template: 'src/client/index.html'
         })
-    ]
+    ],
+    mode: 'none'
 };
 
 const server = {
@@ -39,7 +40,8 @@ const server = {
         path: path.resolve(__dirname, 'dist')
     },
     module: moduleObj,
-    externals: [nodeExternals()]
+    externals: [nodeExternals()],
+    mode: 'none'
 }
 
 module.exports = [client, server];
